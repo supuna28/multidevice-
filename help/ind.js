@@ -1,5 +1,5 @@
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `⏳ ඩවුන්ලෝඩ් කරමින් පවතී`
 }
 
 exports.ok = () => {
@@ -78,9 +78,9 @@ exports.notNum = (q) => {
 
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `
-*Selamat ${salam} ${pushname} 😖*
+* ${salam} ${pushname} 😖*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot Beta :*
+*📚 List-Menu :*
 
 🤖 *INFO*
 ├ ${prefix}owner
@@ -167,14 +167,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 └──────
 
 🙏 *THANKS*
-├ My god
-├ My parents
-├ Rashid
-├ Xfarr api
-├ Fatih A.
-├ ZeeoneOfc
-├ Baileys#multi-device
-├ And all support
+├https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV
 └──────
 
     `
@@ -220,10 +213,9 @@ Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu 
     `
 }
 exports.source = (prefix) =>{
-return`*── 「 SOURCE 」 ──*
+return`*── 「 GROUP 」 ──*
 
-Original : https://github.com/rashidsiregar28/chikabot
-Sc Recode : https://github.com/zeeoneofc/Alphabot-Md
+https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV
 `
 }
 exports.tos = (ownerNumber, prefix) => {
