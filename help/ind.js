@@ -18,10 +18,7 @@ exports.wrongFormat = (prefix) => {
 
 exports.emptyMess = () => {
     return `⚠️ Harap masukkan pesan yang ingin disampaikan! ⚠️`
-}
 
-exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* මෙනුව සදහා== *${prefix}allmenu* ❎`
 }
 
 exports.ownerOnly = () => {
