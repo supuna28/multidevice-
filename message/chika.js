@@ -179,9 +179,9 @@ module.exports = async(chika, msg, m, ind, setting) => {
                         {buttonId: `${prefix}owner`, buttonText: {displayText: '👨‍💻 Owner Bot'}, type: 1},
                         {buttonId: `${prefix}rule`, buttonText: {displayText: '🎛️ Rules Bot' }, type: 1}
                     ]
-                    sendButton('location', from, `Hai kak ${pushname} 👋, saya *${botName}*\n\nBot ini adalah Beta *Multi-Device* Whatsapp. Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya 😖, Lapor Owner Jika Perlu atau Mendesak 🙏 ` + '\n\n' + ind.listMenu(time, salam, pushname, prefix), buttons)
+                    sendButton('location', from, `Hai kak ${pushname} 👋, saya *${botName}*\n\nමෙනුව වෙත පිවිසීමට allmenu විධානය යොදාගන්න 🙏 ` + '\n\n' + ind.listMenu(time, salam, pushname, prefix), buttons)
                } else {
-                   textImg(`Hai kak ${pushname} 👋, saya *${botName}*\n\nBot ini adalah Beta *Multi-Device* Whatsapp. \nJika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya 😖, Lapor Owner Jika Perlu atau Mendesak 🙏\n\nKetik *${prefix}allmenu* untuk melihat list fitur bot`)
+                   textImg(`Hai kak ${pushname} 👋, saya *${botName}*\n\n මෙනුව වෙත පිවිසීමට all මෙනු විධානය යොදාගන්න 🧘‍♂️\n\nKetik *${prefix}allmenu* 🙂`)
                 }
             }
             break
