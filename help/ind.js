@@ -3,11 +3,11 @@ exports.wait = () => {
 }
 
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ Done.~`
 }
 
 exports.err = () => {
-    return `‼️Fitur Sedang Error‼️
+    return `‼️දෝශයකි‼️
 
 ⏳Sedang melapor bug fitur ke owner-sama⏳`
 }
