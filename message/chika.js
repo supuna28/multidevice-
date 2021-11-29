@@ -357,7 +357,7 @@ module.exports = async(chika, msg, m, ind, setting) => {
                     textImg(ind.err())
                 })
             break
-            case prefix+'pinterest': case prefix+'pin':
+            case prefix+'pinterest': case prefix+'pin':case prefix+'img':
                 if (!q) return textImg(ind.wrongFormat(prefix))
                 await textImg(ind.wait())
                 xfar.Pinterest(q).then(async data => {
@@ -541,7 +541,7 @@ module.exports = async(chika, msg, m, ind, setting) => {
                     textImg(ind.err())
                 })
             break
-            case prefix+'mp4': case prefix+'ytmp4':
+            case prefix+'mp4': case prefix+'ytmp4':case prefix+'video':
                 if (!q) return textImg(ind.wrongFormat(prefix))
                 if (!isUrl(q)) return textImg(ind.wrongFormat(prefix))
                 if (!q.includes('youtu.be') && !q.includes('youtube.com')) return textImg(ind.wrongFormat(prefix))
@@ -552,7 +552,7 @@ module.exports = async(chika, msg, m, ind, setting) => {
                     txt += `*🎞️ Type :* ${data.medias[1].extension}\n`
                     txt += `*💾 Size :* ${data.medias[1].formattedSize}\n`
                     txt += `*📚 Url Source :* ${data.url}\n\n`
-                    txt += `*Mohon tunggu sebentar kak, sedang proses pengiriman...*`
+                    txt += `*frist multidevice beta support bot තවමත් testing තත්වයේ පවතී ...*`
                     sendFileFromUrl(from, data.thumbnail, txt, msg)
                     sendFileFromUrl(from, data.medias[1].url, '', msg)
                     
@@ -564,7 +564,7 @@ module.exports = async(chika, msg, m, ind, setting) => {
                     textImg(ind.err())
                 })
             break
-            case prefix+'mp3': case prefix+'ytmp3':
+            case prefix+'mp3': case prefix+'ytmp3':case prefix+'song':
                 if (!q) return textImg(ind.wrongFormat(prefix))
                 if (!isUrl(q)) return textImg(ind.wrongFormat(prefix))
                 if (!q.includes('youtu.be') && !q.includes('youtube.com')) return textImg(ind.wrongFormat(prefix))
@@ -575,7 +575,7 @@ module.exports = async(chika, msg, m, ind, setting) => {
                     txt += `*🎞️ Type :* ${data.medias[7].extension}\n`
                     txt += `*💾 Size :* ${data.medias[7].formattedSize}\n`
                     txt += `*📚 Url Source :* ${data.url}\n\n`
-                    txt += `*Mohon tunggu sebentar kak, sedang proses pengiriman...*`
+                    txt += `*frist multidevice beta support bot තවමත් testing තත්වයේ පවතී...*`
                     sendFileFromUrl(from, data.thumbnail, txt, msg)
                     sendFileFromUrl(from, data.medias[7].url, '', msg)
                 })
