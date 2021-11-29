@@ -79,9 +79,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 *⌚Time Server : ${time}*
 *📚 List-Menu :*
 
-frist multidevice beta support bot තවමත් testing තත්වයේ පවතී
-
-
 🤖 *INFO*
 ├ ${prefix}owner
 ├ ${prefix}rules
