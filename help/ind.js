@@ -166,8 +166,11 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}cringe
 └──────
 
-🙏 *THANKS*
+🙂 *JOIN*
 ├https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV
+├THANKS FOR
+├adiwajshing/baileys
+├BOT KINGDOM ™
 └──────
 
     `
