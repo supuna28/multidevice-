@@ -9,7 +9,7 @@ exports.ok = () => {
 exports.err = () => {
     return `‼️දෝශයකි‼️
 
-⏳Sedang melapor bug fitur ke owner-sama⏳`
+⏳නැවත උතසහ කරන්න🧘‍♂️`
 }
 
 exports.wrongFormat = (prefix) => {
@@ -22,19 +22,19 @@ exports.emptyMess = () => {
 }
 
 exports.ownerOnly = () => {
-    return `⚠️ Command ini khusus Owner-sama! ⚠️`
+    return `⚠️ ඔව්නර් සදහා පමනි! ⚠️`
 }
 
 exports.doneOwner = () => {
-    return `✔  ️Sudah selesai, Owner-sama~`
+    return `✔  ️සාර්තකය 😌~`
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup!`
+    return `👥  කන්ඩායම් සදහා පමනක් වලන්ගු වේ!`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `🙅  මෙය ඇඩ්මින් සදහා පමනක් වන විධානයකි!`
 }
 
 exports.nhFalse = () => {
@@ -48,7 +48,7 @@ Total diblokir: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎`
+    return `❎ ඔබ ඇඩ්මින් වරයකු නොවේ! ❎`
 }
 
 exports.adminAlready = () => {
@@ -56,7 +56,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `බොට් ඇඩ්මින් වරයකු නොවේ 🙏`
 }
 
 exports.received = (pushname) => {
@@ -165,7 +165,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 🙂 *JOIN*
 ├https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV
-├THANKS FOR
+├THANKS FOR 😌
 ├adiwajshing/baileys
 ├BOT KINGDOM ™
 └──────
@@ -177,14 +177,13 @@ exports.rules = (prefix) => {
     return `
 *── 「 RULES AND FAQ 」 ──*
 
-1. Jangan spam bot. 🙅
-Sanksi: *⚠️ WARN/SOFT BLOCK*
+1.  spam bot. 🙅
+😒: *⚠️ WARN/SOFT BLOCK*
 
-2. Jangan telepon bot. ☎️
-Sanksi: *❎ SOFT BLOCK*
+2. telepon bot. ☎️
+😒: *❎ SOFT BLOCK*
 
-3. Jangan mengeksploitasi bot.😖
-Sanksi: *‼️ PERMANENT BLOCK ‼️*
+ස්තූතියි
 
 
 
