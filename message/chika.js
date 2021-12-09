@@ -541,7 +541,7 @@ module.exports = async(chika, msg, m, ind, setting) => {
                     textImg(ind.err())
                 })
             break
-            case 'play':
+            case prefix+'play':
               await axios.get(`https://api.zeks.xyz/api/ytplaymp3/2?apikey=Nyarlathotep&q=${q}`)
 		     .then(res => {
     		  chika.sendMessage(from, '*Data berhasil didapatkan*\n\n_Silahkan tunggu, file media sedang dikirim mungkin butuh waktu beberapa menit_', text, { contextInfo: { externalAdReply: { title: res.data.result.title, body: 'Duration ' + res.data.result.duration + ', Size ' + res.data.result.size, thumbnailUrl: res.data.result.thumb, sourceUrl: res.data.result.link }}})
